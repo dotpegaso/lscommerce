@@ -1,0 +1,110 @@
+%button-hover{
+    background-color: #ff9c00;
+    color: #5f3c05;
+    border-color: #ff9c00;
+    cursor: pointer;
+}
+
+#products{
+    margin-bottom: 50px;
+
+    .parallax{
+        width: 100%;
+        height: 200px;
+        background-color: #ff9c00;
+        background-image: url('../../res/products/blueprint.png');
+        display: flex;
+        align-items: center;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+
+        p{
+            font-family: 'NotoSans-Bold';
+            font-size: 2em;
+            text-transform: uppercase;
+            padding-left: 180px;
+            color: #FFF;
+            
+        }
+    }
+
+    .product-list{
+        display: flex;
+        overflow-x: auto;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+        flex-wrap: wrap;
+        width: calc(80% - 80px);
+        margin: 0 auto;
+        padding: 40px;
+        padding-top: 80px;
+
+        &::-webkit-scrollbar {
+            display: none;
+        }
+
+        .item{
+            width: fit-content;
+            margin: 15px 10px;
+
+            img{
+                box-shadow: 0 0 50px rgba(0,0,0, .3);
+            }
+
+            .item-name{
+                font-family: 'Assistant-Regular';
+                font-size: 18px;
+                text-align: center;
+            }
+        }
+    }
+
+    .action{
+        width: 100%;
+        text-align: center;
+
+        button{
+            height: 70px;
+            padding: 20px 80px;
+            background-color: transparent;
+            border: none;
+            box-shadow: 0 0 50px rgba(0,0,0, .3);
+            border-radius: 6px;
+            font-size: 18px;
+            transition-duration: .2s;
+
+            &:hover{
+                @extend %button-hover;
+            }
+        }
+    }
+
+    .report{
+        display: flex;
+        justify-content: space-evenly;
+        margin: 130px 10vw;
+
+        .box{
+            display: flex;
+            align-items: center;
+            align-content: center;
+
+            .icon{ margin-right: 20px; }
+
+            .detail{
+                .value{
+                    font-family: 'NotoSans-Bold';
+                    font-size: 48px;
+                    margin: 0;
+                }
+
+                .title{
+                    font-family: 'Assistant-Regular';
+                    margin: 0;
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+}

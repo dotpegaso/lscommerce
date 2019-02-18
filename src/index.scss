@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+@font-face{
+    font-family: 'NotoSans-Bold';
+    src: url('./fonts/NotoSans-Bold.ttf'),
+}
+
+@font-face{
+    font-family: 'Assistant-Regular';
+    src: url('./fonts/Assistant-Regular.ttf'),
+}

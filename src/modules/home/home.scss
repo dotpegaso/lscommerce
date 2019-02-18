@@ -1,0 +1,121 @@
+$bFont: 'NotoSans-Bold';
+$rFont: 'Assistant-Regular';
+
+%button-hover{
+    background-color: #ff9c00;
+    color: #5f3c05;
+    border-color: #ff9c00;
+    cursor: pointer;
+}
+
+#home{
+    padding: 0 60px;
+
+    .navbar{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding: 60px 0;
+
+        p{
+            font-family: $rFont;
+            font-size: 16px;
+            margin: 0;
+
+            &.logo{ 
+                font-family: $bFont;
+                font-size: 26px;
+            }
+        }
+
+        .menu{
+            display: flex;
+            align-content: center;
+            align-items: center;
+
+            .menu-item{
+                padding: 5px 15px;
+                border-radius: 6px;
+                transition-duration: .2s;
+
+                &:not(:last-of-type){
+                    margin-right: 20px;
+                }
+
+                &:hover{
+                    @extend %button-hover;
+                }
+            }
+        }
+
+
+    }
+
+    .press{
+        width: 100%;
+        display: flex;
+
+        .box{
+            width: 100%;
+
+            .intro{
+                font-family: $bFont;
+                font-size: 78px;
+                text-transform: uppercase;
+                margin-bottom: 40px;
+                line-height: 86px;
+                position: relative;
+
+                &:after{
+                    content: '';
+                    position: absolute;
+                    width: 20%;
+                    height: 2px;
+                    background: #000;
+                    bottom: -15px;
+                    display: block;
+                    left: 0;
+                }
+
+                span{ color: #ff9c00; }
+            }
+
+            .disclaimer{
+                font-family: $rFont;
+                font-size: 22px;
+                color: #333;
+                width: 80%;
+            }
+
+            button{
+                padding: 20px 80px;
+                background-color: transparent;
+                border: none;
+                box-shadow: 0 0 50px rgba(0,0,0, .3);
+                border-radius: 6px;
+                font-size: 18px;
+                margin-top: 40px;
+                transition-duration: .2s;
+
+                &:hover{
+                    @extend %button-hover;
+                }
+            }
+
+            &:last-of-type{
+                text-align: center;
+                img{ width: 75%; }
+            }
+            
+        }
+    }
+
+    .mouse-icon{
+        display: flex;
+        justify-content: center;
+
+        img{
+            height: 10vh;
+        }
+    }
+}
