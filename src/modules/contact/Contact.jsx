@@ -30,7 +30,7 @@ const Contact = () => {
                 <a href="mailto:vendas@lscomerce.com.br"><b>vendas@lscomerce.com.br</b></a>
                 <p><b>(31) 3352 2812</b> <span>ou</span> <b>(31) 992 792 011</b></p>
             </div>
-
+            
             <div className="footer">
                 <a href={`https://www.google.com/maps/place/${address}`} target="_blank" rel="noopener noreferrer">{address}</a>
                 <p>Copyright © 2019 LS Commerce - Todos os direitos reservados - Site desenvolvido por <a href="https://dotpegaso.com.br" target="_blank" rel="noopener noreferrer">dotpegaso</a></p>

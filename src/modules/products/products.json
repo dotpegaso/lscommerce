@@ -1,0 +1,122 @@
+[
+    {
+        "name" : "9kV 5kA surge arrester",
+        "description" : "9kV 5kA surge arrester",
+        "image" : "1"
+    },
+    {
+        "name" : "12KV surge arrester",
+        "description" : "12KV surge arrester",
+        "image" : "2"
+    },
+    {
+        "name" : "24KV surge arrester",
+        "description" : "24KV surge arrester",
+        "image" : "3"
+    },
+    {
+        "name" : "36KV surge arrester",
+        "description" : "36KV surge arrester",
+        "image" : "4"
+    },
+    {
+        "name" : "Acessórios Desconectáveis para rede subterrânea Loadbreak",
+        "description" : "Acessórios Desconectáveis para rede subterrânea Loadbreak",
+        "image" : "5"
+    },
+    {
+        "name" : "Acessórios desconectáveis para rede subterrânea",
+        "description" : "Acessórios desconectáveis para rede subterrânea",
+        "image" : "6"
+    },
+    {
+        "name" : "Bomba Centrífuga 2",
+        "description" : "Bomba Centrífuga 2",
+        "image" : "7"
+    },
+    {
+        "name" : "Bomba Centrífuga 3",
+        "description" : "Bomba Centrífuga 3",
+        "image" : "8"
+    },
+    {
+        "name" : "Bomba Centrífuga 4",
+        "description" : "Bomba Centrífuga 4",
+        "image" : "9"
+    },
+    {
+        "name" : "Bomba Centrífuga 5",
+        "description" : "Bomba Centrífuga 5",
+        "image" : "10"
+    },
+    {
+        "name" : "Bomba Centrífuga",
+        "description" : "Bomba Centrífuga",
+        "image" : "11"
+    },
+    {
+        "name" : "Bomba Vertical 2",
+        "description" : "Bomba Vertical 2",
+        "image" : "12"
+    },
+    {
+        "name" : "Bomba Vertical",
+        "description" : "Bomba Vertical",
+        "image" : "13"
+    },
+    {
+        "name" : "Cabo nú de Alumínio e protegido",
+        "description" : "Cabo nú de Alumínio e protegido",
+        "image" : "14"
+    },
+    {
+        "name" : "Cabos Nú de Alumínio e protegido",
+        "description" : "Cabos Nú de Alumínio e protegido",
+        "image" : "15"
+    },
+    {
+        "name" : "Chave Fusivel Polim15kV",
+        "description" : "Chave Fusivel Polim15kV",
+        "image" : "16"
+    },
+    {
+        "name" : "Chave Fusivel Polim25kV",
+        "description" : "Chave Fusivel Polim25kV",
+        "image" : "17"
+    },
+    {
+        "name" : "Chave Fusivel Polim35kV",
+        "description" : "Chave Fusivel Polim35kV",
+        "image" : "18"
+    },
+    {
+        "name" : "Chave Fusivel Porcel15KV",
+        "description" : "Chave Fusivel Porcel15KV",
+        "image" : "19"
+    },
+    {
+        "name" : "Chave Fusivel Porcel25KV",
+        "description" : "Chave Fusivel Porcel25KV",
+        "image" : "20"
+    },
+    {
+        "name" : "Rolamento de grande porte 2",
+        "description" : "Rolamento de grande porte 2",
+        "image" : "21"
+    },
+    {
+        "name" : "Rolamento de grande porte 3",
+        "description" : "Rolamento de grande porte 3",
+        "image" : "22"
+    },
+    {
+        "name" : "Rolamento de grande porte 4",
+        "description" : "Rolamento de grande porte 4",
+        "image" : "23"
+    },
+    {
+        "name" : "Rolamento de grande porte",
+        "description" : "Rolamento de grande porte",
+        "image" : "24"
+    }    
+]

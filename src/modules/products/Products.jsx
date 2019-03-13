@@ -1,7 +1,13 @@
 import React from 'react';
+import data from './products.json';
 import './products.scss';
 
 const Products = () => {
+
+    function bgImage(props) {
+        const imageUrl = require(`../../res/products/items/${props}.jpg`)
+        return <div className="item-image" style={{ backgroundImage: `url(${imageUrl})` }} />
+    }
 
     return(
         <section id="products">
@@ -10,46 +16,15 @@ const Products = () => {
             </div>
 
             <div className="product-list">
-                <div className="item">
-                    <img src={require('../../res/products/items/1.png')} alt=""/>
-                    <p className="item-name">Para Raios 24Kv</p>
-                </div>
-                <div className="item">
-                    <img src={require('../../res/products/items/1.png')} alt=""/>
-                    <p className="item-name">Para Raios 24Kv</p>
-                </div>
-                <div className="item">
-                    <img src={require('../../res/products/items/1.png')} alt=""/>
-                    <p className="item-name">Para Raios 24Kv</p>
-                </div>
-                <div className="item">
-                    <img src={require('../../res/products/items/1.png')} alt=""/>
-                    <p className="item-name">Para Raios 24Kv</p>
-                </div>
-                <div className="item">
-                    <img src={require('../../res/products/items/1.png')} alt=""/>
-                    <p className="item-name">Para Raios 24Kv</p>
-                </div>
-                <div className="item">
-                    <img src={require('../../res/products/items/1.png')} alt=""/>
-                    <p className="item-name">Para Raios 24Kv</p>
-                </div>
-                <div className="item">
-                    <img src={require('../../res/products/items/1.png')} alt=""/>
-                    <p className="item-name">Para Raios 24Kv</p>
-                </div>
-                <div className="item">
-                    <img src={require('../../res/products/items/1.png')} alt=""/>
-                    <p className="item-name">Para Raios 24Kv</p>
-                </div>
-                <div className="item">
-                    <img src={require('../../res/products/items/1.png')} alt=""/>
-                    <p className="item-name">Para Raios 24Kv</p>
-                </div>
-                <div className="item">
-                    <img src={require('../../res/products/items/1.png')} alt=""/>
-                    <p className="item-name">Para Raios 24Kv</p>
-                </div>
+
+                {
+                    data.map( x => (
+                        <div className="item">
+                            { bgImage(x.image) }
+                            <p className="item-name" title={x.name}>{x.name}</p>
+                        </div>
+                    ))
+                }
             </div>
 
             <div className="action">
