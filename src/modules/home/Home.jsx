@@ -5,7 +5,9 @@ const Home = () => (
     <section id="home">
 
         <div className="navbar">
-            <p className="logo">LS COMMERCE</p>
+            <p className="logo">
+                <img src={require('../../res/home/logo.png')} alt=""/>
+            </p>
             <div className="menu">
                 <div className="menu-item"><p>Bombeamento</p></div>
                 <div className="menu-item"><p>Produtos</p></div>

@@ -51,9 +51,10 @@
             margin-bottom: 50px;
 
             .item-image{
-                box-shadow: 0 0 50px rgba(0,0,0, .3);
+                border: 2px solid rgba(0,0,0, .1);
                 width: 100%;
                 height: 100%;
+                border-radius: 20px;
                 background-position: center;
                 background-size: contain;
                 background-repeat: no-repeat;

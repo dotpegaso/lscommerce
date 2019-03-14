@@ -1,5 +1,5 @@
 import React from 'react';
-import data from './products.json';
+import data from './product_list.json';
 import './products.scss';
 
 const Products = () => {
