@@ -167,3 +167,10 @@ $rFont: 'Assistant-Regular';
     }
     
 }
+
+@media screen and (min-width: 1366px) and (max-width: 1439px){
+  #home .intro{
+    margin-top: 0 !important;
+    font-size: 70px !important;
+  }
+}
