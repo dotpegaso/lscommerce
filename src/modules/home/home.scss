@@ -119,3 +119,51 @@ $rFont: 'Assistant-Regular';
         }
     }
 }
+
+@media screen and (max-width: 490px) and (orientation: portrait){
+
+    #home{
+        padding: 0 20px;
+
+        .navbar{
+            .logo img{
+                width: 70% !important;
+                margin: 0 auto;
+                display: block;
+            }
+
+            .menu{
+                display: none;
+            }
+        }
+
+        .press{
+            flex-wrap: wrap;
+
+            .box{
+                
+                .intro{
+                    margin-top: 0;
+                    font-size: 10vw;
+                    line-height: 10vw;
+                    text-align: center;
+                }
+
+                .disclaimer{
+                    font-size: 5vw;
+                    width: 100%;
+                    text-align: center;
+                }
+
+                button{ display: none; }
+
+                &:last-of-type img{
+                    width: 100%;
+                }
+            }
+        }
+
+        .mouse-icon{ display: none; }
+    }
+    
+}

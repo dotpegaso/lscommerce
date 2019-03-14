@@ -105,3 +105,43 @@
         }
     }
 }
+
+@media screen and (max-width: 490px) and (orientation: portrait){
+    
+    #contact{
+
+        form{
+            flex-wrap: wrap;
+            padding: 0 !important;
+
+            .box{
+                width: 100% !important;
+                margin: 0 10px !important;
+
+                input, textarea{
+                    margin: 15px;
+                }
+            }
+
+            .submit{
+                margin-top: 0;
+                margin-bottom: 50px;
+            }
+        }
+
+        .mail{
+            margin: 0;
+
+            p{
+                b:nth-child(1){
+                    display: block;
+                }
+            }
+        }
+    }
+
+    #footer{
+        margin-top: 50px;
+    }
+
+}

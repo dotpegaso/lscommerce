@@ -121,3 +121,39 @@
         }
     }
 }
+
+@media screen and (max-width: 490px) and (orientation: portrait){
+
+    #products{
+
+        .parallax p{
+            font-size: 20px;
+            text-align: center;
+            width: 100%;
+            padding: 0 20px !important;
+        }
+
+        .product-list{
+            flex-wrap: wrap;
+            padding: 0 !important;
+
+            .item{
+                width: 30vw !important;
+                height: 30vw !important;
+            }
+        }
+
+        .report{
+            flex-wrap: wrap;
+            margin: 0 !important;
+            padding-top: 50px;
+
+            .box{
+                margin: 15px 0;
+                justify-content: center;
+                width: 100%;
+            }
+        }
+    }
+
+}
